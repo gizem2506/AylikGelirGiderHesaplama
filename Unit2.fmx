@@ -1,0 +1,227 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 584
+  ClientWidth = 560
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ColorButton1: TColorButton
+    Color = claCrimson
+    Position.X = -1.000000000000000000
+    Size.Width = 561.000000000000000000
+    Size.Height = 584.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      StyledSettings = []
+      Position.X = 105.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 345.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Algerian'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000200000001000000}
+      TextSettings.FontColor = claNavajowhite
+      TextSettings.WordWrap = False
+      Text = 'Ayl'#305'k Hesap Takip Sistemi'
+      TabOrder = 8
+    end
+    object Label2: TLabel
+      StyledSettings = []
+      Position.X = 40.000000000000000000
+      Position.Y = 120.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlanchedalmond
+      Text = 'Ayl'#305'k Gelirinizi Giriniz : '
+      TabOrder = 9
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 11
+      Position.X = 40.000000000000000000
+      Position.Y = 145.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Button1: TButton
+      StyledSettings = [Size]
+      Position.X = 225.000000000000000000
+      Position.Y = 145.000000000000000000
+      Size.Width = 192.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      Text = 'Gelir Hesapla'
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = Button1Click
+    end
+    object Label3: TLabel
+      StyledSettings = []
+      Position.X = 40.000000000000000000
+      Position.Y = 184.000000000000000000
+      Size.Width = 465.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlanchedalmond
+      Text = 'Toplam Harcanan Para : '
+      TabOrder = 14
+    end
+    object Label4: TLabel
+      StyledSettings = []
+      Position.X = 40.000000000000000000
+      Position.Y = 217.000000000000000000
+      Size.Width = 481.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlanchedalmond
+      Text = 'Kalan Tutar : '
+      TabOrder = 13
+      object Label5: TLabel
+        StyledSettings = []
+        Position.Y = 32.000000000000000000
+        Size.Width = 425.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Tahoma'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claBlanchedalmond
+        Text = 'Ek Gelir :'
+        TabOrder = 4
+      end
+    end
+    object ListBox1: TListBox
+      Position.X = 40.000000000000000000
+      Position.Y = 282.000000000000000000
+      Size.Width = 369.000000000000000000
+      Size.Height = 127.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 15
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 365.000000000000000000
+      Viewport.Height = 123.000000000000000000
+    end
+    object ComboBox1: TComboBox
+      Position.X = 40.000000000000000000
+      Position.Y = 417.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 16
+      object ListBoxItem1: TListBoxItem
+        TabOrder = 0
+        Text = 'Su Faturas'#305
+      end
+      object ListBoxItem2: TListBoxItem
+        TabOrder = 1
+        Text = #304'nternet Faturas'#305
+      end
+      object ListBoxItem3: TListBoxItem
+        TabOrder = 2
+        Text = 'Telefon Faturas'#305
+      end
+      object ListBoxItem4: TListBoxItem
+        TabOrder = 3
+        Text = 'Kredi Kart'#305' '#214'demesi'
+      end
+      object ListBoxItem5: TListBoxItem
+        TabOrder = 4
+        Text = 'Kira Tutar'#305
+      end
+      object ListBoxItem7: TListBoxItem
+        TabOrder = 6
+        Text = 'E'#287'itim '#214'demeleri'
+      end
+      object ListBoxItem8: TListBoxItem
+        TabOrder = 7
+        Text = 'Yurt '#214'demesi'
+      end
+      object ListBoxItem9: TListBoxItem
+        TabOrder = 8
+        Text = 'Market Fi'#351'i'
+      end
+      object ListBoxItem10: TListBoxItem
+        TabOrder = 9
+        Text = 'Elektirik Faturas'#305
+      end
+      object ListBoxItem11: TListBoxItem
+        TabOrder = 10
+        Text = 'Do'#287'algaz Faturas'#305
+      end
+      object ListBoxItem6: TListBoxItem
+        TabOrder = 5
+        Text = 'Di'#287'er / Ek Giderler'
+      end
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 17
+      Position.X = 241.000000000000000000
+      Position.Y = 417.000000000000000000
+      Size.Width = 168.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Button4: TButton
+      StyledSettings = [Size, FontColor]
+      Position.X = 281.000000000000000000
+      Position.Y = 520.000000000000000000
+      Size.Width = 256.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 18
+      Text = 'Program'#305' Kapat'
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = Button4Click
+    end
+    object SpeedButton1: TSpeedButton
+      StyledSettings = []
+      Position.X = 80.000000000000000000
+      Position.Y = 448.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Gelir  Ekle'
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlanchedalmond
+      OnClick = SpeedButton1Click
+    end
+    object SpeedButton2: TSpeedButton
+      StyledSettings = []
+      Position.X = 273.000000000000000000
+      Position.Y = 448.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Harcama Yap'
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlanchedalmond
+      OnClick = SpeedButton2Click
+    end
+  end
+end

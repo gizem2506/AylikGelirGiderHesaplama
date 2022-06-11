@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.053,=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.631,C:\Users\gizem\Desktop\MobilProgramlamaÖdev\Unit2.fmx=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.631,C:\Users\gizem\Desktop\MobilProgramlamaÖdev\Unit2.pas=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.956,C:\Users\gizem\Desktop\MobilProgramlamaÖdev\Project2.dproj=C:\Users\gizem\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="127.0.0.1:5555" Android64="127.0.0.1:5555"/>
+	</ActiveMobileDevice>
+</BorlandProject>
